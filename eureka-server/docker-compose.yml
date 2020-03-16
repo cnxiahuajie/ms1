@@ -1,0 +1,5 @@
+services:
+  eureka-server:
+    build:
+      context: ./src/main/docker/
+      dockerfile: Dockerfile
